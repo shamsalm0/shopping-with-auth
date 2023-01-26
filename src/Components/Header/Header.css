@@ -1,0 +1,25 @@
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(44, 44, 70);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+    padding-right: 150px;
+    
+}
+.nav-bar img{
+    padding-left: 50px;
+}
+.nav-bar div{
+    padding-right: 50px;
+}
+.nav-bar div a{
+    text-decoration: none;
+    color: white;
+    padding: 0 36px;
+}
+.nav-bar div a:hover{
+    color:aqua;
+}
