@@ -3,3 +3,15 @@
     top:0;
     padding: 30px 20px;
 }
+
+@media screen and (max-width:430px) {
+    .cart{
+        padding: 20px 10px;
+    }
+    .summary{
+        font-size: 20px;
+    }
+    .cart p{
+        font-size: 12px;
+    }
+}

@@ -12,14 +12,39 @@
 .nav-bar img{
     padding-left: 50px;
 }
-.nav-bar div{
+.link{
     padding-right: 50px;
 }
-.nav-bar div a{
+.link a{
     text-decoration: none;
     color: white;
     padding: 0 36px;
 }
-.nav-bar div a:hover{
+.link a:hover{
     color:aqua;
+}
+
+@media screen and (max-width:430px) {
+    .link{
+        padding-right: 10px;
+    }
+    .link a{
+        padding: 0 2px;
+        font-size: 13px;
+    }
+    .nav-bar img{
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .link{
+        padding-right: 10px;
+    }
+    .link a{
+        padding: 0 8px;
+        font-size: 18px;
+    }
+    .nav-bar img{
+        padding-left: 5px;
+    }
 }

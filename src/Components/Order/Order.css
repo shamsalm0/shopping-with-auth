@@ -1,0 +1,9 @@
+.order-container{
+    
+}
+
+@media screen and (max-width:430px) {
+    .order-container{
+        width: 50%;
+    }
+}

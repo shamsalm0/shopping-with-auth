@@ -10,9 +10,9 @@ const Products = (props) => {
             <img src={img} alt="" />
             <div className="product-info">
                 <h2 className='product-name'>{name}</h2>
-            <p>Price:${price}</p>
-         <p><small>Manufacture:{seller}</small></p>
-         <p><small>Ratings:{ratings}</small></p>              
+            <p className='price'>Price:${price}</p>
+         <p className='manufacture'><small>Manufacture:{seller}</small></p>
+         <p className='ratings'><small>Ratings:{ratings}</small></p>              
             </div>
             <button className='product-btn' onClick={()=>props.handleAddtoCart(props.product)}><p>Add to Cart</p>
             <FontAwesomeIcon icon={faShoppingCart} ></FontAwesomeIcon></button>
